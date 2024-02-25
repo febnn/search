@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="advanced.css" />
+    <title>Advanced search</title>
+  </head>
+  <body>
+    <div class="image_div">
+      <img
+        src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.arezqGrVeKUAmuKTaXGGEgHaEK%26pid%3DApi&f=1&ipt=08e7fddbb92492ea1709180f7d5b53a095398dd40bb0c62c557365a1aca7adc2&ipo=images"
+        alt="google - logo"
+        width="70px"
+      />
+      <div class="icons">
+        <a href="index.html">Google Search</a>
+        <div class="menu">
+          <img src="menu-4-svgrepo-com.svg" alt="" />
+        </div>
+        <div class="avatar"><p>N</p></div>
+      </div>
+    </div>
+
+    <div class="advanced_title">Advanced search</div>
+
+    <form action="https://google.com/search" class="form_table">
+      <table>
+        <tbody>
+          <thead>
+            <td>Find pages with...</td>
+            <td></td>
+            <td style="font-weight: bold; font-size: medium">
+              To do this in the search box.
+            </td>
+          </thead>
+
+          <tr>
+            <td>all these words:</td>
+            <td class="input_field"><input type="text" name="as_q" /></td>
+            <td>Type the important words: tri-colour rat terrier</td>
+          </tr>
+          <tr>
+            <td>this exact word or phrase:</td>
+            <td class="input_field"><input type="text" name="as_epq" /></td>
+            <td>Put exact words in quotes: "rat terrier"</td>
+          </tr>
+          <tr>
+            <td>any of these words:</td>
+            <td class="input_field"><input type="text" name="as_oq" /></td>
+            <td>
+              Type OR between all the words you want:<br />
+              miniature OR standard
+            </td>
+          </tr>
+          <tr>
+            <td>none of these words:</td>
+            <td class="input_field"><input type="text" name="as_eq" /></td>
+            <td>
+              Put a minus sign just before words that you don't want:<br />
+              -rodent, -"Jack Russell"
+            </td>
+          </tr>
+          <tr>
+            <td></td>
+            <td style="position: relative">
+              <input
+                type="submit"
+                name=""
+                value="Advanced Search"
+                class="submit_btn"
+              />
+            </td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
+    </form>
+  </body>
+</html>
